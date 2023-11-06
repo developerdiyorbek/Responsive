@@ -1,0 +1,99 @@
+.steps__top {
+  h2 {
+    color: $primaryColor;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    margin-bottom: 30px;
+  }
+}
+.steps {
+  margin-bottom: 100px;
+  &__left {
+    p {
+      display: flex;
+      align-items: center;
+      gap: 29px;
+      margin-bottom: 50px;
+      color: $primaryColor;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: normal;
+      span {
+        display: inline-block;
+        width: 23px;
+        height: 23px;
+        border-radius: 50%;
+        background-color: #bdbdbd;
+      }
+    }
+    p:nth-child(1) {
+      color: $secondaryColor;
+      font-size: 18px;
+      font-weight: 600;
+      line-height: normal;
+      span {
+        background-color: $secondaryColor;
+      }
+    }
+  }
+  &__right {
+    .step-card {
+      width: 340px;
+      height: 750px;
+      border-radius: 10px;
+      padding: 23px 12px;
+      background: #fff;
+      box-shadow: 0px 10px 60px 0px rgba(42, 35, 103, 0.15);
+      margin-bottom: 50px;
+      &__title {
+        display: flex;
+        align-items: center;
+        gap: 18px;
+        color: $primaryColor;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        margin-bottom: 25px;
+        span {
+          display: inline-block;
+          color: #fff;
+          display: flex;
+          align-items: center;
+          justify-content: center;
+          font-size: 18px;
+          font-weight: 700;
+          line-height: normal;
+          width: 37px;
+          height: 37px;
+          border-radius: 50%;
+          background-color: #43cd93;
+        }
+      }
+      .step__line {
+        width: 313px;
+        height: 1px;
+        background: #ebebeb;
+        margin-bottom: 14px;
+      }
+      .step__subtitle {
+        width: 301px;
+        color: $primaryColor;
+        font-size: 12px;
+        font-weight: 400;
+        line-height: normal;
+        margin-bottom: 20px;
+      }
+    }
+    div:nth-child(3) {
+      height: 519px;
+    }
+    div:nth-child(4) {
+      height: 526px;
+    }
+    div:nth-child(5),
+    div:nth-child(6) {
+      height: 332px;
+    }
+  }
+}

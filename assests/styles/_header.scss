@@ -1,0 +1,49 @@
+header{
+  position: sticky;
+  top: 0;
+  background: white;
+  z-index: 5;
+}
+.header {
+  @include d-flex;
+  &__links {
+    @include d-flex(none, center);
+    gap: 27px;
+    li a {
+      color: $primaryColor;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: normal;
+      padding: 5px;
+    }
+  }
+  &__right {
+    @include d-flex(none, center);
+    div {
+      .header-icons {
+        padding: 3px;
+        margin-right: 5px;
+      }
+      p:nth-child(1) a:nth-child(3) {
+        color: $primaryColor;
+        font-size: 24px;
+        font-weight: 800;
+        line-height: normal;
+      }
+
+      p:nth-child(2) {
+        color: $primaryColor;
+        font-size: 12px;
+        font-weight: 700;
+        line-height: normal;
+        text-align: end;
+      }
+    }
+    .header__btn {
+      margin-left: 20px;
+      padding: 22px 33px;
+      cursor: pointer;
+    }
+  }
+}
+

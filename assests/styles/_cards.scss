@@ -1,0 +1,65 @@
+.cards-section {
+    margin-bottom: 100px;
+  .cards-title {
+    color: $primaryColor;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+    width: 340px;
+    margin-bottom: 30px;
+  }
+  .cards-title span {
+    color: $secondaryColor;
+    font-size: 18px;
+    font-weight: 800;
+    line-height: normal;
+  }
+  .cards{
+    gap: 54px 20px;
+    flex-wrap: wrap;
+    @include d-flex(none, center);
+    margin-bottom: 50px;
+  }
+  .card {
+    padding-left: 15px;
+    width: 340px;
+    height: 200px;
+    border-radius: 10px;
+    background: #fff;
+    box-shadow: 0px 0px 30px 0px rgba(0, 0, 0, 0.15);
+  }
+  .card h3 {
+    color: #fff;
+    text-shadow: 0px 4px 8px rgba(0, 0, 0, 0.25);
+    font-size: 64px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 1px;
+  }
+  .card h2 {
+    color: $primaryColor;
+    font-size: 14px;
+    font-weight: 700;
+    line-height: normal;
+    margin-bottom: 10px;
+  }
+  .card_row {
+    width: 175px;
+    height: 2px;
+    background: #e37575;
+    margin-bottom: 8px;
+  }
+  .card p {
+    width: 320px;
+    color: $primaryColor;
+    font-size: 12px;
+    font-weight: 400;
+    line-height: normal;
+  }
+  .card__btn{
+    display: block;
+    margin: 0 auto;
+    padding: 22px 78px;
+    cursor: pointer;
+  }
+}

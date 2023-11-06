@@ -1,0 +1,22 @@
+.business {
+  margin-bottom: 70px;
+  &__left {
+    h3 {
+      color: $primaryColor;
+      font-size: 18px;
+      font-weight: 800;
+      line-height: normal;
+      span{
+        font-size: 18px;
+        color: $secondaryColor;
+      }
+    }
+    p {
+      width: 340px;
+      color: $primaryColor;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: normal;
+    }
+  }
+}

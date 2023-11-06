@@ -1,0 +1,32 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: "Montserrat";
+  font-style: normal;
+  scroll-behavior: smooth;
+}
+ul {
+  list-style: none;
+}
+a {
+  text-decoration: none;
+}
+.container {
+  max-width: 1140px;
+  width: 100%;
+  padding: 0 16px;
+  margin: 0 auto;
+}
+.d-none {
+  display: none;
+}
+.btn {
+  color: #fff;
+  font-size: 12px;
+  font-weight: 800;
+  line-height: normal;
+  border-radius: 5px;
+  background: var(--2, #6b5af9);
+  border: none;
+}

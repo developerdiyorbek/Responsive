@@ -1,0 +1,44 @@
+.sertif__section1 {
+  min-height: 340px;
+  height: 731px;
+  border-radius: 10px;
+  background: #f0d577;
+  padding: 16px;
+  margin-bottom: 100px;
+  .sertif_section2 {
+    // @include d-flex(center, center);
+    border-radius: 10px;
+    border: 1px solid #fff;
+    height: 697px;
+    padding-top: 19px;
+    .sertif_img1{
+        display: block;
+        margin: 0 auto;
+        margin-bottom: 19px;
+    }
+    .sertif_card{
+        @include d-flex(center, center);
+        flex-direction: column;
+      }
+    .sertif_card {
+        h2 {
+            color: #9f9f9f;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: normal;
+            margin-bottom: 6px;
+          }
+          p {
+            color: $primaryColor;
+            text-align: center;
+            font-size: 12px;
+            font-weight: 700;
+            line-height: normal;
+            width: 212px;
+            margin-bottom: 24px;
+          }
+    }
+  }
+  
+}

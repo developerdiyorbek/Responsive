@@ -1,0 +1,141 @@
+.inputs {
+  margin-bottom: 150px;
+  position: relative;
+  width: 340px;
+  height: 932px;
+  border-radius: 20px;
+  background: #f4f8ff;
+  padding: 40px 10px 0 10px;
+  &__left {
+    margin-bottom: 40px;
+    h3 {
+      text-align: center;
+      color: $primaryColor;
+      font-size: 24px;
+      font-weight: 800;
+      line-height: normal;
+      margin-bottom: 30px;
+    }
+    p {
+      color: $primaryColor;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: normal;
+    }
+    i {
+      color: $primaryColor;
+      font-size: 12px;
+      font-weight: 600;
+    }
+    span {
+      display: block;
+      margin-bottom: 10px;
+    }
+  }
+  &__right {
+    width: 320px;
+    height: 486px;
+    border-radius: 20px;
+    background: #6b5af9;
+    padding: 20px;
+    margin: 0 auto;
+    h3 {
+      color: #fff;
+      text-align: center;
+      font-size: 18px;
+      font-weight: 700;
+      line-height: normal;
+      margin-bottom: 21px;
+    }
+    p {
+      width: 277px;
+      color: #fff;
+      text-align: center;
+      font-size: 12px;
+      font-weight: 400;
+      line-height: normal;
+      margin-bottom: 35px;
+    }
+    input {
+      background-color: #6b5af9;
+      outline: none;
+      border: none;
+      border-bottom: 2px solid rgba(255, 255, 255, 0.4);
+      padding-bottom: 7px;
+      width: 250px;
+      color: rgba(255, 255, 255, 0.4);
+      margin-bottom: 40px;
+    }
+    input::placeholder {
+      color: rgba(255, 255, 255, 0.4);
+      font-size: 12px;
+      font-weight: 400;
+      line-height: normal;
+    }
+    button {
+      width: 268px;
+      height: 60px;
+      border-radius: 5px;
+      background: #fff;
+      color: #6b5af9;
+      font-size: 14px;
+      font-weight: 700;
+      line-height: normal;
+      border: none;
+      margin-bottom: 35px;
+    }
+    div {
+      display: flex;
+      gap: 17px;
+      label {
+        display: inline-block;
+        width: 282px;
+        color: #fff;
+        font-size: 12.5px;
+        font-weight: 400;
+        line-height: normal;
+        span {
+          color: #9b8fff;
+        }
+      }
+      input[type="checkbox"] {
+        display: block;
+        color: white;
+        width: 20px;
+        height: 20px;
+        border-radius: 2px;
+        background: #9b8fff;
+      }
+      input[type="checkbox"]:checked {
+        color: white;
+        accent-color: #9b8fff;
+      }
+    }
+  }
+  &__img1{
+    position: absolute;
+    left: 0;
+    bottom: 0;
+  }
+  &__img2{
+    position: absolute;
+    right: -5px;
+    bottom: 94px;
+  }
+  &__img3{
+    position: absolute;
+    top: -50px;
+    left: -5px;
+  }
+  &__img4{
+    position: absolute;
+    right: -25px;
+    top: -40px;
+  }
+  &__img5{
+    position: absolute;
+    left: 13px;
+    bottom: 229px;
+  }
+}
