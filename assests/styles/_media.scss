@@ -312,6 +312,72 @@
       height: 57px;
     }
   }
+  footer {
+    width: 100%;
+    padding-bottom: 48px;
+    padding-left: 30px;
+    .footer__line {
+      display: block;
+      width: 1100px;
+      height: 1px;
+      background-color: $secondaryColor;
+      margin-bottom: 29px;
+    }
+    h2 {
+      font-size: 36px;
+      margin-bottom: 30px;
+      padding-top: 42px;
+    }
+    .footer__a2 {
+      display: inline-block;
+      font-size: 48px;
+      width: 300px;
+      border: none;
+      margin-bottom: 20px;
+      margin-right: 455px;
+    }
+    .footer__btn {
+      width: 341px;
+      height: 60px;
+      margin-bottom: 30px;
+    }
+    .footer__center {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: space-between;
+      align-items: center;
+      margin-bottom: 6px;
+      a {
+        display: inline-block;
+        margin: 0 20px 46px 0;
+      }
+      .address__p1 {
+        width: 230px;
+        font-size: 14px;
+        margin-bottom: 26px;
+      }
+      .address__p2 {
+        width: 140px;
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+    }
+    .footer__p4 {
+      width: 440px;
+      margin-bottom: 16px;
+    }
+    .footer__a5 {
+      display: block;
+      margin: 0 auto;
+      width: 202px;
+      padding-bottom: 5px;
+    }
+    .footer__logo {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
 }
 
 @media (max-width: 992px) {
@@ -631,6 +697,73 @@
       height: 41px;
     }
   }
+  footer {
+    width: 100%;
+    padding-bottom: 48px;
+    padding-left: 30px;
+    .footer__line {
+      display: block;
+      width: 665px;
+      height: 1px;
+      background-color: $secondaryColor;
+      margin-bottom: 29px;
+    }
+    h2 {
+      font-size: 24px;
+      margin-bottom: 6px;
+      padding-top: 42px;
+    }
+    .footer__a2 {
+      display: inline-block;
+      font-size: 29px;
+      width: 300px;
+      border: none;
+      margin-bottom: 20px;
+      margin-right: 20px;
+    }
+    .footer__btn {
+      width: 341px;
+      height: 60px;
+      margin-bottom: 30px;
+    }
+    .footer__center {
+      display: flex;
+      flex-direction: row-reverse;
+      justify-content: flex-end;
+      align-items: center;
+      gap: 350px;
+      margin-bottom: 30px;
+      a {
+        display: inline-block;
+        margin: 0 20px 46px 0;
+      }
+      .address__p1 {
+        width: 230px;
+        font-size: 14px;
+        margin-bottom: 26px;
+      }
+      .address__p2 {
+        width: 140px;
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+    }
+    .footer__p4 {
+      width: 440px;
+      margin-bottom: 16px;
+    }
+    .footer__a5 {
+      display: block;
+      margin: 0 auto;
+      width: 202px;
+      padding-bottom: 5px;
+    }
+    .footer__logo {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px;
+    }
+  }
 }
 
 @media (max-width: 576px) {
@@ -936,6 +1069,68 @@
       bottom: 229px;
       width: 42px;
       height: 41px;
+    }
+  }
+  footer {
+    width: 100%;
+    padding-bottom: 48px;
+    padding-left: 0;
+    .footer__line {
+      display: none;
+    }
+    h2 {
+      font-size: 18px;
+      font-weight: 700;
+      margin-bottom: 11px;
+      padding-top: 27px;
+    }
+    .footer__a2 {
+      display: block;
+      font-size: 20px;
+      font-weight: 700;
+      width: 330px;
+      padding-bottom: 20px;
+      border-bottom: 1px solid #6b5af9;
+      margin-bottom: 20px;
+    }
+    .footer__btn {
+      width: 275px;
+      height: 60px;
+      margin-bottom: 30px;
+    }
+    .footer__center {
+      display: block;
+      margin-bottom: 30px;
+      a {
+        display: inline-block;
+        margin: 0 20px 46px 0;
+      }
+      .address__p1 {
+        display: block;
+        width: 230px;
+        font-size: 14px;
+        margin-bottom: 26px;
+      }
+      .address__p2 {
+        display: block;
+        width: 140px;
+        font-size: 14px;
+        margin-bottom: 4px;
+      }
+    }
+    .footer__p4 {
+      width: 221px;
+      margin-bottom: 30px;
+    }
+    .footer__a5 {
+      display: block;
+      width: 202px;
+      padding-bottom: 5px;
+    }
+    .footer__logo {
+      display: block;
+      margin: 0 auto;
+      margin-bottom: 30px;
     }
   }
 }
